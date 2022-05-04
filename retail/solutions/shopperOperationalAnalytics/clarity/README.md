@@ -11,20 +11,20 @@ custom e-commerce website, or a third party commerce provider like [Shopify](htt
 With Microsoft Clarity Shopper you can observe customer and operational needs, monitor and understand
 your online engagement with your users. By using Clarity\'s analysis tools, you can monitor how your website is used on
 different platforms like PC, Mobile, Tablet and enhance your website for your clients and your business. Through Dashboard insights, Session
-Recordings and Heatmaps, Clarity helps you identify usability requirements of your web site by allowing you to study user behavior.
+Recordings and Heatmaps, Clarity helps you identify usability requirements of your website by allowing you to study user behavior.
 
 You can **monitor and understand  online engagements by**:
 
--   Utilizing the heatmap feature to see where your site generates the most clicks, what people are ignoring, and how far they're
+- Utilizing the heatmap feature to see where your site generates the most clicks, what people are ignoring, and how far they're
     scrolling.
 
--   Watch how customers are using your site with anonymized,
+- Watch how customers are using your site with anonymized,
     hi-definition recordings and discover user frustrations by
     documenting rage clicks, dead clicks, and quick backs with
     behavior-focused insights allowing you to come up with solutions
     more efficiently.
 
--   Understand customer engagement using built-in web and mobile
+- Understand customer engagement using built-in web and mobile
     analytics existing in Microsoft Clarity and return customer activity recognition, allowing you to
     create custom reports and views based on real-time customer behavior
     data.
@@ -34,12 +34,12 @@ All these capabilities  can simply summarized as tracking your website usage beh
 ## Prerequisites
 
 * You need to have the URL of your website ready.
-* In order to start using Microsoft Clarity to track your website usage behavior you need to have **sufficient rights to access and change to your webpages source** and be able to **redeploy**.
+* In order to start using Microsoft Clarity to track your website usage behavior you need to have **sufficient rights to access and change to your web pages source** and be able to **redeploy**.
 What you will do in the source code depends on the technology you use for your web page.
 For example,
 
-     - For a Custom Web site you need sufficient rights to access and change change the code of the  website's **\<HEAD\>**  section and  again sufficient rights and access to rebuild and redeploy.
-     - For a Dynamics E-Commerce page you need the sufficient roles and rights to change the templates and redeploy.
+  - For a Custom Website you need sufficient rights to access and change change the code of the  website's **\<HEAD\>**  section and  again sufficient rights and access to rebuild and redeploy.
+  - For a Dynamics E-Commerce page you need the sufficient roles and rights to change the templates and redeploy.
 
 * You will need a user for [Microsoft Clarity](https://clarity.microsoft.com/) access. This user is not necessarily related to the website's or Azure/Dynamics platform's admin users. It only has to be a Microsoft account *(if preferred authentication is Microsoft- otherwise Facebook and Google Authentications are also available)*.
 * Clarity only accesses and tracks publicly available websites. so the website URL needs to be publicly accessible.
@@ -53,9 +53,9 @@ There are three key consideration areas for the clarity integration.
     1. Have the website URL ready. You **can not** change the **URL** after creating the Clarity project.
     1. Introduce the website to Microsoft Clarity: Create the Clarity project using the website URL. Do not underestimate the power of the Site Category in the tracked elements and provided reports. You **can** change the **Site category** after creating the Clarity project. *By the time of creation of this document available Site categories were: E-Commerce, SaaS, Blog, Marketing, Consulting, Media, Education, Community, Non-profit, Other.*
     ![view of site categories](./media/image35.png)
-    1. Introduce Microsoft Clarity to the website: Retrieve the Clarity tracking code with the unique key created for the website url from Clarity project and add it to the designated code block.
+    1. Introduce Microsoft Clarity to the website: Retrieve the Clarity tracking code with the unique key created for the website URL from Clarity project and add it to the designated code block.
 1. Making sure to keep the privacy level high.
-1. Eliminating the traffic test, admin and maintenance URLS from trackings to be able to capture real customer experience.
+1. Eliminating the traffic test, admin and maintenance URLs from trackings to be able to capture real customer experience.
 
 ## Key product capabilities
 
@@ -85,7 +85,7 @@ e.  Rage Clicks: ratio of sessions where user rapidly clicked or tapped
 f.  Quick Backs: ratio of sessions when user navigated to a page then
     quickly returned to the previous one
 
-g.  Javascript errors: ratio of sessions which had a Javascript error
+g.  JavaScript errors: ratio of sessions which had a JavaScript error
 
 h.  The ranked popularity of your application's sub pages
 
@@ -239,7 +239,7 @@ collect from them. In other words you may want some information to **masked** in
 
 ![Masked and Unmasked data example](./media/image96.png)
 > *Info Note: You can also mask using specific **CSS elements** from
-> your web site code. From **Mask by element** you can see above, you
+> your website code. From **Mask by element** you can see above, you
 > can enter the **CSS selector** for the element to be masked and
 > click **Add**. For example, enter .class_name for a
 > class, \#id_value for an ID, and element for a type. From here you can
