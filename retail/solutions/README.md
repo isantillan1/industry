@@ -7,8 +7,11 @@ Goal of solutions is to provide end-to-end reference implementation to address k
 
 The solutions covered here were created based on feedback captured from various groups working across retail engagements. We will continue adding more solutions to this list as part of industry guidance.
 
-- [Intelligent Order Managment and BigCommerce for order management](./iom/README.md)
+- [Intelligent Order Management and BigCommerce for order management](./iom/README.md)
 - [Intelligent Recommendations with Shopify](./ir/README.md)
+- [Shopper and Operational Analytics](./shopperOperationalAnalytics/README.md)
+- [Retail Churn Prediction](./churn/README.md)
+- [Real-time store communications and collaboration](./frontline-worker/README.md)
 
 ---
 **Note** - the retail solutions listed here are not to be confused with the **cloud solutions** one can deploy using [Microsoft Cloud Solution Center](https://docs.microsoft.com/en-us/industry/solution-center-deploy?toc=/industry/retail/toc.json&bc=/industry/retail/breadcrumb/toc.json).
